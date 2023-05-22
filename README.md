@@ -18,10 +18,11 @@
 > [Projeto-A3](https://www.figma.com/)
 ---
 ## Apresentação e ideia do Projeto
-- Desenvolvimento de um Website utilizando as principais linguagens de programação
-- Front-end: HTML, CSS e JS
-- Back-end: MySQL
+- Desenvolvimento de um Website utilizando as principais linguagens de programação:
+- Front-end: HTML e CSS
+- Pré-processadores: Tailwind
 - Servidor: Vercel
 
-
-
+## Descrição do Projeto
+> O projeto a ser desenvolvido, será um website de uma empresa que provê um sistema SaaS através da requisição de um usuário através de uma interface gráfica.
+  O Projeto foi inspirado no website da **Amazon Web Services**
