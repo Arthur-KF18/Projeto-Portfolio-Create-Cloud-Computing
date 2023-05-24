@@ -526,12 +526,24 @@ video {
   display: flex;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -554,6 +566,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-slate-200 {
