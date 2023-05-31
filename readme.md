@@ -20,7 +20,6 @@
 ## Apresentação e ideia do Projeto
 - Desenvolvimento de um Website utilizando as principais linguagens de programação:
 - Front-end: HTML e CSS
-- Pré-processadores: Tailwind
 - Servidor: Vercel
 
 ## Descrição do Projeto
