@@ -1,3 +1,103 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.secao1{
+    display: flex;
+    flex-direction: row;
+    background-color: slategray;
+    padding: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secao__lista{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.5rem;
+}
+.secao__lista>li {
+    padding-right: 0.5rem;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.secao__lista>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.secao2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.secao2__texto {
+    width: 40vw;
+}
+
+.secao2__texto>h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.secao2__texto>p{
+    font-size: 1.5rem;
+}
+
+.secao2>picture>img {
+    width: 35vw;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    background-color: beige;
+    margin: 0.5rem;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    background-color: rgb(56, 162, 223);
+    margin: 0.5rem;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    background-color: rgb(56, 223, 140);
+    margin: 0.5rem;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes__perfis{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 231, 231);
+}
