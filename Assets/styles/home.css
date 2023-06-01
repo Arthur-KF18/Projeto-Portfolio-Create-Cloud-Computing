@@ -1,6 +1,6 @@
 @import url('../styles/style.css');
 
-.header__secao{
+.header__secao {
     display: flex;
     flex-direction: row;
     background-color: var(--cinza-escuro);
@@ -9,11 +9,12 @@
     align-items: center;
 }
 
-.secao__lista{
+.secao__lista {
     display: flex;
     flex-direction: row;
     padding-right: 0.5rem;
 }
+
 .secao__lista>li {
     padding-right: 1rem;
     font-size: 1.3rem;
@@ -27,7 +28,7 @@
     font-weight: var(--fonte-principal-bold);
 }
 
-.secao2{
+.secao2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,14 +40,14 @@
     width: 40vw;
 }
 
-.secao2__texto>h1{
+.secao2__texto>h1 {
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
     font-size: 2rem;
     padding-bottom: 1rem;
 }
 
-.secao2__texto>p{
+.secao2__texto>p {
     font-family: var(--fonte-texto-regular);
     font-size: 1.5rem;
 }
@@ -72,7 +73,7 @@
     width: 30vh;
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: var( --preto-claro);    
+    background-color: var(--preto-claro);
     color: var(--branco);
 }
 
@@ -85,9 +86,7 @@
     padding-bottom: 1rem;
 }
 
-.card__cloud>picture>img {
-    
-}
+.card__cloud>picture>img {}
 
 .card2 {
     display: flex;
@@ -96,7 +95,7 @@
     width: 30vh;
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: var( --preto-claro);
+    background-color: var(--preto-claro);
     color: var(--branco);
 }
 
@@ -107,7 +106,7 @@
     width: 30vh;
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: var( --preto-claro);
+    background-color: var(--preto-claro);
     color: var(--branco);
 }
 
@@ -118,7 +117,7 @@
     align-items: center;
 }
 
-.informacoes__perfis{
+.informacoes__perfis {
     display: flex;
     flex-direction: column;
     background-color: rgb(139, 231, 231);
