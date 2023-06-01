@@ -1,0 +1,125 @@
+@import url('../styles/style.css');
+
+.header__secao{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cinza-escuro);
+    padding: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secao__lista{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.5rem;
+}
+.secao__lista>li {
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.secao__lista>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+}
+
+.secao2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.secao2__texto {
+    width: 40vw;
+}
+
+.secao2__texto>h1{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.secao2__texto>p{
+    font-family: var(--fonte-texto-regular);
+    font-size: 1.5rem;
+}
+
+.secao2>picture>img {
+    width: 35vw;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-texto-regular);
+}
+
+.card__cloud {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var( --preto-claro);    
+    color: var(--branco);
+}
+
+.card__cloud>picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card__cloud>picture>img {
+    
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var( --preto-claro);
+    color: var(--branco);
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var( --preto-claro);
+    color: var(--branco);
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes__perfis{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 231, 231);
+}
