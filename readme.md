@@ -1,7 +1,7 @@
 # A3-GQS.
 ## Repositório contendo os arquivos do Trabalho A3 da Faculdade UAM, UC de Gestão e Qualidade de Software.
 
-### Alunos presentes no desenvolvimento do trabalho:
+### Alunos presentes no desenvolvimento do Trabalho:
 > [LinkedIn - Arthur](https://www.linkedin.com/).
 > 
 > [LinkedIn - Gustavo](https://www.linkedin.com/).
@@ -30,11 +30,12 @@
 > O Projeto foi inspirado no website da **Amazon Web Services**.
 ---
 
-## Funcionalidades.
+## Funcionalidades do Projeto.
 > Cadastro de Clientes.
 > Login do Usuário.
+> Acessar Conta.
 > Perfil do Usuário.
-> Senha.
+> Senha do Usuário.
 > Atendimento técnico.
 > Perguntas Frequentes.
 > Contatos.
