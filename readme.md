@@ -31,13 +31,13 @@
 ---
 
 ## Funcionalidades do Projeto.
-> Cadastro de Clientes.
-> Login do Usuário.
-> Acessar Conta.
-> Perfil do Usuário.
-> Senha do Usuário.
-> Atendimento técnico.
-> Perguntas Frequentes.
-> Contatos.
-> Criação de novas instâncias.
-> Formas de Pagamento.
+- Cadastro de Clientes.
+- Login do Usuário.
+- Acessar Conta.
+- Perfil do Usuário.
+- Senha do Usuário.
+- Atendimento técnico.
+- Perguntas Frequentes.
+- Contatos.
+- Criação de novas instâncias.
+- Formas de Pagamento.
