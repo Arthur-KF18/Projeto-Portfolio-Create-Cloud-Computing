@@ -31,9 +31,9 @@
 ---
 
 ## Funcionalidades.
-> Cadastro.
-> Login.
-> Perfil.
+> Cadastro de Clientes.
+> Login do Usuário.
+> Perfil do Usuário.
 > Senha.
 > Atendimento técnico.
 > Perguntas Frequentes.
