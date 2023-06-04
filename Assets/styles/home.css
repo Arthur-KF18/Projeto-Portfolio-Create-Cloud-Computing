@@ -50,10 +50,11 @@
 .secao2__texto>p {
     font-family: var(--fonte-texto-regular);
     font-size: 1.5rem;
+    width: 35vw;
 }
 
 .secao2>picture>img {
-    width: 35vw;
+    width: 40vw;
 }
 
 
