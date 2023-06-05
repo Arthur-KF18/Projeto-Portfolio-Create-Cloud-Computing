@@ -22,7 +22,7 @@
 - Front-end: HTML e CSS.
 - Servidor: Vercel.
 - Banco de Dados: SQLite 3.
-- Framework: Flash.
+- Framework: Flask.
 ---
 
 ## Descrição do Projeto
