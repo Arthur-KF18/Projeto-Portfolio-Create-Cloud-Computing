@@ -37,6 +37,30 @@ def servico():
 def central_login():
     return render_template('login.html')
 
+@app.route('/ajuda')
+
+def ajuda():
+    return render_template('ajuda.html')
+
+@app.route('/cadastro')
+
+def cadastro():
+    return render_template('criar_conta.html')
+
+@app.route('/cadastrar_user',methods=['POST','GET'],)
+
+def cadastrar_user():
+    email = request.form['email']
+    senha = request.form['senha']
+
+    cursor.execute('''
+        INSERT INTO usuarios (email, senha)
+        VALUES (?, ?)
+    ''', (email, senha))
+    db.commit()
+
+    return redirect(url_for('home'))
+
 if __name__=='__main__':
     app.run(debug=True)
 

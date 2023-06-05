@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CCC | Conta</title>
         <link rel="icon" href="../images/Logo.png">
-        <link href="../styles/reset.css" rel="stylesheet">
-        <link href="../styles/style.css" rel="stylesheet">
+        <link href="../static/reset.css" rel="stylesheet">
+        <link href="../static/style.css" rel="stylesheet">
     
         <!-- fontes utilizadas -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,32 @@
             rel="stylesheet">
     </head>
 <body>
-    
+    <header class="cabecalho_login">
+        <img class="logo__img__cabecalho" src="../static/images/Logo.png" alt="logo">
+        <a href="ajuda">Ajuda</a>
+    </header>
+    <main class="centraliza_conteudo">
+        <section >
+            <form class="conteudo_cadastro" method="POST" action="{{ url_for('cadastrar_user') }}">
+                <div class="conteudo_central_login__text">
+                    <img class="logo__img" src="../static/images/Cloud.png" alt="logo">
+                    <h1>Bem-vindo a Create Cloud Computing!</h1>
+                    <p>Dê seus primeiros passos em direção ao futuro!</p>
+                </div>
+                <div class="conteudo_cadastro__input">
+                    <p class="conteudo_cadastro__input__especificado">
+                    <input type="hidden" name="proxima" value="{{ proxima or url_for('home') }}">
+                    <label class="conteudo_cadastro__input__label">Seu melhor email</label>
+                    <input type="text" id="email" name="email" class="form-control" required>
+                    </p>
+                    <p class="conteudo_cadastro__input__especificado">
+                    <label class="conteudo_cadastro__input__label">Digite sua senha</label> 
+                    <input type="text" id="senha" name="senha" class="form-control" required>
+                    </p> 
+                </div>
+                <button class="conteudo_cadastro__button" type="submit">Próximo Passo</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
