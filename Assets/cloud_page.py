@@ -61,6 +61,33 @@ def cadastrar_user():
 
     return redirect(url_for('home'))
 
+@app.route("/login")
+
+def login():
+    return render_template('acessar_conta.html')
+
+@app.route('/autenticar', methods=['POST','GET'])
+def autenticar():
+
+    email = request.form['email']
+    senha = request.form['senha']
+
+    # Verifica se o email e senha estão cadastrados no banco de dados
+    cursor.execute('''
+        SELECT * FROM usuarios WHERE email = ? AND senha = ?
+    ''', (email, senha))
+    usuario = cursor.fetchone()
+
+    if usuario:
+        session['usuario_logado'] = email
+        flash(' logado com sucesso!')
+        proxima_pagina = request.form['proxima']
+        return redirect(proxima_pagina)
+    else:
+        flash('E-mail ou Senha invalido')
+        return redirect(url_for('login'))
+
+
 if __name__=='__main__':
     app.run(debug=True)
 
