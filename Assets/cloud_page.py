@@ -20,6 +20,7 @@ db.commit()
 @app.route('/')
 
 def home():
+    session['usuario_logado'] = None
     return render_template('index.html')
 
 @app.route('/sobre')
@@ -82,11 +83,24 @@ def autenticar():
         session['usuario_logado'] = email
         flash(' logado com sucesso!')
         proxima_pagina = request.form['proxima']
+        if proxima_pagina == '/':
+            proxima_pagina = '/home'
         return redirect(proxima_pagina)
     else:
         flash('E-mail ou Senha invalido')
         return redirect(url_for('login'))
 
+@app.route('/home')
+
+def home_logged():
+    if 'usuario_logado' not in session or session['usuario_logado'] == None:
+        return redirect(url_for('login', proxima=url_for('home_logged')))
+    return render_template('pag_logada.html')
+
+@app.route('/my_account')
+
+def my_account():
+    return render_template('minha_conta.html')
 
 if __name__=='__main__':
     app.run(debug=True)
