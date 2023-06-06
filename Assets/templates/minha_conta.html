@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCC | Minha Conta</title>
+    <title>Minha Conta</title>
     <link rel="icon" href="../images/Logo.png">
     <link href="../static/reset.css" rel="stylesheet">
     <link href="../static/style.css" rel="stylesheet">
@@ -17,8 +17,80 @@
         rel="stylesheet">
 </head>
 
-<body>
+<header>
+    <section class="header__secao">
+        <picture><img src="../static/images/Cloud.png" alt="logo.CCC"></picture>
+        <ul class="secao__lista">
+            <li> <a href="/">Home</a></li>
+            <li> <a href="sobre">Ajuda</a></li>
+            <li> <a href="servico">Minha Conta</a></li>
+            <picture><img src="../static/images/foto_de_perfil01.png" alt="Foto de Perfil"></picture>
+        </ul>
+    </section>
+</header>
 
+<body>
+    <section>
+        <img src="../static/images/foto_de_perfil01.png" alt="Foto de Perfil">
+        <div>
+            <h2>Gerencie sua Conta</h2>
+        </div>
+    </section>
+    <section>
+        <div>
+            <img src="../static/images/usuario.svg" alt="Usuario">
+            <div>
+                <a href="#"><h3>Alterar nome do perfil</h3></a>
+                <a href="#"><p>Editar Biografia</p></a>
+            </div>
+        </div>
+        <div>
+            <h2>Dados Pessoais</h2>
+            <h4>Nome Completo</h4>
+            <input type="name" placeholder="Nome do Usuário Completo">
+            <h4>Senha</h4>
+            <input type="password" placeholder="Senha do Usuário">
+            <div>
+                <button>Alterar Senha</button>
+            </div>  
+        <div>
+        <div>
+            <h2>Dados do Cartão</h2>
+            <h4>Dados do Cartão</h4>
+            <input type="name" placeholder="Nome no Cartão">
+            <h4>Validade do Cartão</h4>
+            <input type="date" placeholder="MM/AA">
+            <div>
+                <button>Editar Cartões</button>
+            </div> 
+        <div>
+    </section>
+    <section>
+        <h1>FREE</h1>
+        <h3>Válido por 1 ANO</h3>
+    </section>
 </body>
+
+<footer>
+    <section class="rodape">
+        <div class="rodape__empresas">
+            <h2 class="rodape__empresas--titulo">Nossas Empresas</h2>
+            <ul class="rodape__empresas--conteudo">
+                <li class="re__conteudo--item"> <a href="#"> CloudCompanion</a>
+                </li>
+                <li class="re__conteudo--item"> <a href="#"> Cloud Network</a></li>
+                <li class="re__conteudo--item"> <a href="#"> Venha fazer parte do nosso time</a></li>
+            </ul>
+        </div>
+        <div class="rodape__contato">
+            <h2 class="rodape__empresas--titulo">Contate-nos</h2>
+            <ul class="rodape__empresas--conteudo">
+                <li class="re__conteudo--item"> <a href="#"> CloudCompanion@Cloud.com.br</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <h4 class="rodape__disclaimer">Copyright &copy;CCC, Todos os direitos reservados</h4>
+</footer>
 
 </html>
