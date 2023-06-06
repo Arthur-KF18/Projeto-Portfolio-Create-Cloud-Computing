@@ -87,8 +87,6 @@
     padding-bottom: 1rem;
 }
 
-.card__cloud>picture>img {}
-
 .card2 {
     display: flex;
     flex-direction: column;
