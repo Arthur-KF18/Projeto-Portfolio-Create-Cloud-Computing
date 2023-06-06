@@ -41,3 +41,11 @@
 - Contatos.
 - Criação de novas instâncias.
 - Formas de Pagamento.
+
+
+## Como compilar o documento:
+- **É necessário o uso da versão do python mais recente**
+- no arquivo cloud_page.py, abre-se um terminal, nele usamos:
+- `pip install -r requirements.txt`
+- Através disso, é instalado o arquivo contendo todos os requisitos, assim sendo possível utilizar o Flask
+- Após isso, apenas executa-se o arquivo do cloud_page.py
