@@ -23,6 +23,7 @@
 - Servidor: Vercel.
 - Banco de Dados: SQLite 3.
 - Framework: Flask.
+- API: Swiper API
 ---
 
 ## Descrição do Projeto
