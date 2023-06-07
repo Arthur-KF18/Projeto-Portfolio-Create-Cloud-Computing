@@ -48,8 +48,12 @@ def ajuda():
 def cadastro():
     return render_template('criar_conta.html')
 
-@app.route('/cadastrar_user',methods=['POST','GET'],)
+@app.route("/pagamento")
 
+def cadastar_cartao():
+    return render_template("forma_pagamento.html")
+
+@app.route('/cadastrar_user',methods=['POST','GET'],)    
 def cadastrar_user():
     email = request.form['email']
     senha = request.form['senha']
@@ -60,7 +64,9 @@ def cadastrar_user():
     ''', (email, senha))
     db.commit()
 
-    return redirect(url_for('home'))
+    return redirect(url_for('cadastar_cartao'))
+
+
 
 @app.route("/login")
 
