@@ -1,0 +1,302 @@
+@import url('../static/style.css');
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1vh;
+}
+
+.cabecalho{
+    background-color: var(--cor_cinza-principal);
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    align-items: center;
+}
+.cabecalho__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.cabecalho__nav__links {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.cabecalho__nav__links>li {
+    font-size: 1rem;
+    list-style: none;
+}
+.cabecalho__nav__links>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+}
+.cabecalho__nav>img{
+    width: 56px;
+}
+.instancias{
+    background-color: var(--cor_cinza-esboco);
+    width: 39vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 4.8vh 1vw;
+}
+.instancias>h1{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;  
+}
+.instancias>div{
+    background-color: var(--preto-claro);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 28.62vw;
+    height: 3.65vh;
+}
+.instancias>div>img{
+    padding-left:16px;
+}
+.instancias>div>p{
+    color: white;
+    font-family: var(--fonte-texto-regular);
+    font-size:1rem;
+}
+
+.user_instancias{
+    background-color: var(--cor_cinza-esboco);
+    width: 55vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4.8vh 1vw;
+}
+.user_instancias>h1{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+}
+.user_instancias__list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.user_instancias__list>li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+}
+.user_instancias__list>li>div{
+    background-color: var(--preto-claro);
+    width: 28.62vw;
+    height: 3.65vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.user_instancias__list>li>div>img{
+    padding: 0 16px;
+}
+
+.informacao_texto{
+    margin: 4.8vh 1vw;
+    background-color: var(--cor_cinza-esboco);
+    width: 39vw;
+    height: 24.68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.informacao_texto>h1{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.5rem;
+    width: 37vw;
+    height: 7.31vh;
+}
+.informacao_texto>p{
+    font-family: var(--fonte-texto-regular);
+    font-size: 0.5rem;
+    width: 37vw;
+}
+.card {
+    margin: 4.8vh 1vw;
+    display: flex;
+    flex-direction: row;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-texto-regular);
+    flex-wrap: wrap;
+}
+
+.card__cloud {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--preto-claro);
+    color: var(--branco);
+}
+
+.card__cloud>picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--preto-claro);
+    color: var(--branco);
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--preto-claro);
+    color: var(--branco);
+}
+.exemplos_forum{
+    margin: 4.8vh 1vw;
+    width: 129.65vw; 
+    height: 29.82vh;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+   
+}
+.exemplos_forum>h1{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.5rem;
+}
+.exemplos_forum__comentarios{
+    display: flex;
+    gap:24px;
+
+}
+.exemplos_forum__comentarios>li{
+    background-color: var(--cor_cinza-esboco);
+    width: 29.1vw;
+    height: 22.05vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.83vw;
+}
+.exemplos_forum__comentarios__dados-user{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.exemplos_forum__comentarios__dados-user>img{
+   width: 56px; 
+}
+.exemplos_forum__comentarios__dados-user>div{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.exemplos_forum__comentarios__dados-user>div>h1{
+    font-family: var(--fonte-texto-regular);
+    font-size: 0.75rem;
+}
+.exemplos_forum__comentarios__dados-user>div>h2{
+    font-family: var(--fonte-texto-regular);
+    font-size: 0.5rem;
+    
+}
+.exemplos_forum__comentarios>li>h2{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1rem;
+}
+.exemplos_forum__comentarios>li>p{
+    width: 28vw;
+    height: 6.85vh;
+    font-family: var(--fonte-texto-regular);
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.questoes_forum{
+    margin: 4.8vh 1vw;
+    width: 129.65vw; 
+    height: 19.77vh;
+    display: flex;
+    flex-direction: column;
+    gap: 36px; 
+}
+.questoes_forum>h1{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.5rem;
+}
+footer{
+    margin: 100px 0 0 0;
+    background-color: var(--cor_cinza-principal);
+    height: 24.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4.13vw;
+}
+.rodape__empresas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rodape__empresas--titulo{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1rem;
+    color: white;
+}
+.rodape__empresas--conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.re__conteudo--item>a{
+    color: var(--cor_conteudo);
+    text-decoration: none;
+    font-family: var(--fonte-texto-regular);
+    font-size: 0.75rem;
+}
+footer>h4{
+    display: flex;
+    justify-content: center;
+    color: var(--cor_conteudo);
+}

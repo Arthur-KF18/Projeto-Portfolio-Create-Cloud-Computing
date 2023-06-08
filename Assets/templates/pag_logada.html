@@ -9,6 +9,7 @@
     <link rel="icon" href="../images/Logo.png">
     <link href="../static/reset.css" rel="stylesheet">
     <link href="../static/style.css" rel="stylesheet">
+    <link href="../static/logged_home.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 
@@ -20,58 +21,68 @@
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <img src="../static/images/Logo.png" alt="Logo">
-        <a href="home">Home</a>
-        <a href="ajuda">Ajuda</a>
-        <a href="my_account">Minha Conta</a>
-        <img src="../static/images/usuário.svg" alt="">
+        <div class="cabecalho__nav">
+            <ul class="cabecalho__nav__links">
+                <li><a href="home">Home</a></li>
+                <li><a href="ajuda">Ajuda</a></li>
+                <li><a href="my_account">Minha Conta</a></li>
+            </ul>
+            <img src="../static/images/usuário.svg" alt="">
+        </div>
     </header>
 
     <main>
-        <section>
+        <section class="instancias">
             <h1>Criar uma nova instância</h1>
             <div>
                 <img src="../static/images/Cloud.svg" alt="nuvem">
                 <p>Cloud</p>
             </div>
             <div>
-                <img src="../static/images/clouddownload.svg" alt="Cloud Download">s
-                <p>Cloud</p>
+                <img src="../static/images/clouddownload.svg" alt="Cloud Download">
+                <p>Cloud Dowload</p>
             </div>
             <div>
                 <img src="../static/images/cloudserver.svg" alt="Cloud Server">
-                <p>Cloud</p>
+                <p>Cloud Server</p>
             </div>
             <div>
                 <img src="../static/images/CloudHorse.svg" alt="CloudHorse">
-                <p>Cloud</p>
+                <p>CloudHorse</p>
             </div>
             <div>
                 <img src="../static/images/CloudShell.svg" alt="VM Cloud">
-                <p>Cloud</p>
+                <p>VM Cloud</p>
             </div>
             <div>
                 <img src="../static/images/cloudDevOps.svg" alt="Cloud DevOps">
-                <p>Cloud</p>
+                <p>Cloud DevOps</p>
             </div>
         </section>
 
-        <section>
+        <section class="user_instancias">
             <h1>Minhas Instâncias</h1>
-            <div>
-                <img src="" alt="nuvem_dowload">
-                <p>Cloud Server</p>
-            </div>
-            <p>Status: Ativa</p>
-            <div>
-                <img src="" alt="nuvem_dowload">
-                <p>CloudHorse</p>
-            </div>
-            <p>Status: Desligada</p>
+            <ul class="user_instancias__list">
+                <li>
+                    <div>
+                        <img src="../static/images/cloudserver.svg" alt="nuvem_upload">
+                        <p>Cloud Server</p>
+                    </div>
+                    <p>Status: Ativa</p>
+                </li>
+                <li>
+                    <div>
+                        <img src="../static/images/CloudHorse.svg" alt="nuvem_dowload">
+                        <p>CloudHorse</p>
+                    </div>
+                    <p>Status: Desligada</p>
+                </li>
+            </ul>
         </section>
 
-        <section>
+        <section class="informacao_texto">
             <h1>Informações sobre nossas instâncias</h1>
             <p>Nossa empresa oferece serviço SaaS na nuvem. Com instâncias em cloud services confiáveis, proporcionamos
                 uma experiência escalável e flexível aos clientes. Aproveitamos a infraestrutura de plataformas líderes
@@ -118,51 +129,60 @@
             </div>
         </section>
 
-        <section>
+        <section class="exemplos_forum">
             <h1>Questões feitas no Fórum</h1>
-            <div>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Carlos dos Santos</p>
-                        <p>Especialista em DevOps</p>
+            <ul class="exemplos_forum__comentarios">
+                <li>
+                    <div class="exemplos_forum__comentarios__dados-user">
+                        <img src="../static/images/usuário.svg" alt="user_image">
+                        <div>
+                            <h1>Carlos dos Santos</h1>
+                            <h2>Especialista em DevOps</h2>
+                        </div>
                     </div>
                     <h2>Preciso entender sobre um componente</h2>
                     <p>Estive pesquisando sobre um importante componente, como posso resolver o problema abaixo?</p>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Alexandre Nougueira</p>
-                        <p>CloudHorse Trainee</p>
+                </li>
+                <li>
+                    <div class="exemplos_forum__comentarios__dados-user">
+                        <img src="../static/images/usuário.svg" alt="user_image">
+                        <div>
+                            <h1>Alexandre Nougueira</h1>
+                            <h2>CloudHorse Trainee</h2>
+                        </div>
                     </div>
                     <h2>Quais as novas funções implementadas?</h2>
                     <p>Amo o CloudHorse, mas preciso aprender mais conteúdos... Onde posso encontrar mais conteúdo?</p>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Carla Cristina</p>
-                        <p>Empresária Financeira</p>
+                </li>
+                <li>
+                    <div class="exemplos_forum__comentarios__dados-user">
+                        <img src="../static/images/usuário.svg" alt="user_image">
+                        <div>
+                            <h1>Carla Cristina</h1>
+                            <h2>Empresária Financeira</h2>
+                        </div>
                     </div>
                     <h2>Onde posso encontrar minhas VM's?</h2>
                     <p>Onde ficam todas as máquinas virtuais que criei? Estou um pouco perdida... agradeço a ajuda!</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </section>
 
-
-        <section>
+        <section class="questoes_forum">
             <h1>Suas questões no fórum</h1>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p>Célia Navegante</p>
-                    <p>Gerente RH da CCC</p>
-                </div>
-                <h2>Bem-vindos a Plataforma!</h2>
-                <p>Qualquer dúvida, não hesite o contato conosco através da página de ajuda!</p>
-            </div>
+            <ul class="exemplos_forum__comentarios">
+                <li>
+                    <div class="exemplos_forum__comentarios__dados-user">
+                        <img src="../static/images/usuário.svg" alt="user_image">
+                        <div>
+                            <h1>Célia Navegante</h1>
+                            <h2>Gerente RH da CCC</h2>
+                        </div>
+                    </div>
+                    <h2>Bem-vindos a Plataforma!</h2>
+                    <p>Qualquer dúvida, não hesite o contato conosco através da página de ajuda!</p>
+                </li>
+            </ul>
         </section>
 
     </main>
@@ -173,15 +193,14 @@
                 <ul class="rodape__empresas--conteudo">
                     <li class="re__conteudo--item"> <a href="#"> CloudCompanion</a>
                     </li>
-                    <li class="re__conteudo--item"> <a href="#"> Cloud Network</a></li>
-                    <li class="re__conteudo--item"> <a href="#"> Venha fazer parte do nosso time</a></li>
+                    <li class="re__conteudo--item"> <a href="#"> Cloud Networking</a></li>
+                    <li class="re__conteudo--item"> <a href="#"> Venha fazer parte do nosso time!</a></li>
                 </ul>
             </div>
             <div class="rodape__contato">
                 <h2 class="rodape__empresas--titulo">Contate-nos</h2>
                 <ul class="rodape__empresas--conteudo">
-                    <li class="re__conteudo--item"> <a href="#"> CloudCompanion@Cloud.com.br</a>
-                    </li>
+                    <li class="re__conteudo--item"> <a href="#"> CloudCompanion@Cloud.com.br</a></li>
                 </ul>
             </div>
         </section>
