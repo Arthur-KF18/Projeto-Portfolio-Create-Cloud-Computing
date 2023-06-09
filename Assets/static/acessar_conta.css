@@ -1,0 +1,109 @@
+@import url('../static/style.css');
+
+.cabecalho{
+    background-color: var(--cor_cinza-principal);
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    align-items: center;
+}
+.cabecalho__link{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-texto-regular);
+    font-size: 1.5rem;
+}
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgb(235, 96, 96);
+    color: white;
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 2rem;
+}
+.centraliza_conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 77.7vh;
+}
+.conteudo_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor_cinza-principal);
+    width: 37.81vw;
+    height: 40vh;
+    border-radius: 12px;
+    gap: 24px;
+}
+.conteudo_central_login__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.conteudo_central_login__text>h1{
+    color: white;
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.5rem;
+}
+.conteudo_login__input{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 35.31vw;
+    height: 18.05vh;
+    color: white;
+}
+.conteudo_login__input__especificado{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.conteudo_login__input__label{
+    font-family: var(--fonte-texto-regular);
+    font-size: 1rem;
+}
+.conteudo_login__input__especificado>input{
+    border-radius: 8px;
+    height: 3.54vh;
+    padding-left: 8px;
+}
+.forgot_password{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-texto-regular);
+    font-size: 0.75rem;
+}
+.conteudo_login__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--cor_cinza-principal);
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 0.75rem;
+    width: 14.06vw;
+    height: 3.65vh;
+    border-radius: 8px;
+}
+footer{
+    background-color: var(--cor_cinza-principal);
+    height: 6.62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer>h4{
+    display: flex;
+    justify-content: center;
+    color: var(--cor_conteudo);
+}

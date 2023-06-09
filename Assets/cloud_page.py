@@ -87,8 +87,8 @@ def autenticar():
 
     if usuario:
         session['usuario_logado'] = email
-        flash(' logado com sucesso!')
         proxima_pagina = request.form['proxima']
+        
         if proxima_pagina == '/':
             proxima_pagina = '/home'
         return redirect(proxima_pagina)

@@ -9,6 +9,7 @@
     <link rel="icon" href="../static/images/Logo.png">
     <link href="../static/reset.css" rel="stylesheet">
     <link href="../static/style.css" rel="stylesheet">
+    <link href="../static/acessar_conta.css" rel="stylesheet">
 
     <!-- fontes utilizadas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,11 +19,11 @@
 </head>
 
 <body>
-    <header class="cabecalho_login">
-        <img class="logo__img__cabecalho" src="../static/images/Logo.png" alt="logo">
-        <a href="ajuda">Ajuda</a>
+    <header class="cabecalho">
+        <img src="../static/images/Logo.png" alt="logo">
+        <a class="cabecalho__link" href="ajuda">Ajuda</a>
     </header>
-    <main class="centraliza_conteudo">
+    <section>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 <ul id="messages" class="list-unstyled">
@@ -32,28 +33,35 @@
                 </ul>
             {% endif %}
         {% endwith %}
-        <section >
+    </section>
+    <main class="centraliza_conteudo">
+        <section>
             <form class="conteudo_login" method="POST" action="{{ url_for('autenticar') }}">
                 <div class="conteudo_central_login__text">
                     <img class="logo__img" src="../static/images/Cloud.png" alt="logo">
                     <h1>Create Cloud Computing - Login</h1>
                 </div>
                 <div class="conteudo_login__input">
-                    <p class="conteudo_login__input__especificado">
                     <input type="hidden" name="proxima" value="{{ proxima or url_for('home') }}">
-                    <label class="conteudo_login__input__label">Seu e-mail:</label>
-                    <input class="form-control" type="text" name="email" required>
-                    </p>
-                    <p class="conteudo_login__input__especificado">
-                    <label class="conteudo_login__input__label">Sua Senha:</label> 
-                    <input class="form-control" type="password" name="senha" required>
-                    <a class="forgot_password" href="">Esqueceu a sua senha?</a>
-                    </p> 
+                    <div class="conteudo_login__input__especificado">
+                        <label class="conteudo_login__input__label">Seu e-mail</label>
+                        <input class="form-control" type="text" name="email" required
+                        placeholder="Seuemail@domíno.com">
+                    </div>
+                    <div class="conteudo_login__input__especificado">
+                        <label class="conteudo_login__input__label">Sua Senha</label> 
+                        <input class="form-control" type="password" name="senha" required
+                        placeholder="Suasenha">
+                        <a class="forgot_password" href="">Esqueceu a sua senha?</a>
+                    </div> 
                 </div>
                 <button class="conteudo_login__button" type="submit">Acessar Conta</button>
             </form>
         </section>
     </main>
+    <footer>
+        <h4 class="rodape__disclaimer">Copyright &copy;CCC, Todos os direitos reservados</h4>
+    </footer>
 
 </body>
 
