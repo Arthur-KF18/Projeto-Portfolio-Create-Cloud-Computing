@@ -1,0 +1,85 @@
+@import url('../static/style.css');
+
+.cabecalho{
+    background-color: var(--cor_cinza-principal);
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    align-items: center;
+}
+.cabecalho__link{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+}
+.centraliza_conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77.7vh;
+}
+.conteudo_central_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor_cinza-principal);
+    width: 37.81vw;
+    height: 32vh;
+    border-radius: 12px;
+    gap: 24px;
+}
+.conteudo_central_login__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+}
+.conteudo_central_login__text>h1{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold); 
+    font-size: 1.5rem;
+}
+.conteudo_central_login__text>p{
+    font-family: var(--fonte-texto-regular);
+    font-size: 1rem;
+    width: 24.6vw;
+    height: 4.57vh;
+    text-align: center;
+}
+.conteudo_central_login__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.conteudo_central_login__links__itens{
+    text-decoration: none;
+    background-color: white;
+    color: var(--cor_cinza-principal);
+    border-radius: 8px;
+    width: 14.06vw;
+    height: 3.65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 0.75rem;
+}
+footer{
+    background-color: var(--cor_cinza-principal);
+    height: 6.62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer>h4{
+    display: flex;
+    justify-content: center;
+    color: var(--cor_conteudo);
+}
