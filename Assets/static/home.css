@@ -217,7 +217,58 @@
     height: 8vh;
 }
 
+.Newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 40vh;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: var(--cor_cinza-principal);
+    color: var(--branco);
+}
 
+.Newsletter__conteudo {}
+
+.Newsletter__inscricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30vw;
+    gap: 1rem;
+}
+
+.Newsletter__caixatexto, 
+.Newsletter__botao {
+    border-radius: 12px;
+    border-style: none;
+}
+
+.Newsletter__caixatexto {
+    width: 30vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.Newsletter__botao {
+    width: 10vw;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.Newsletter__botao> a {
+    text-decoration: none;
+    color: var(--cor_cinza-principal);
+    background-color: var(--branco);
+    transition: 1s;
+}
+
+.Newsletter__botao:hover {
+    background-color: var(--cor_cinza-principal);
+    color: var(--branco);
+    transition: 1s;
+}
 
 
 
