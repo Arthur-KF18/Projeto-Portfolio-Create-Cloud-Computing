@@ -1,6 +1,10 @@
 @import url('../static/home.css');
 @import url('../static/sobre.css');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     /* fontes usadas */
     --fonte-principal: 'Red Hat Display', sans-serif;
