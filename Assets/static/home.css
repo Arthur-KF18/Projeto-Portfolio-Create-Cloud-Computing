@@ -263,6 +263,7 @@ html{
     text-align: center;
     height: 40vh;
     padding: 2rem 4rem 2rem 4rem;
+    margin-bottom: 2rem;
     background-color: var(--cor_cinza-principal);
     color: var(--branco);
 }
@@ -322,11 +323,122 @@ html{
     transition: 1s;
 }
 
+.FAQlogo {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 4rem;
+}
 
+.FAQ__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
 
+.FAQ__subtitulo {
+    font-family: var(--fonte-texto-regular);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: var(--cor_cinza-principal);
+}
 
+.FAQ__subtitulo--texto {
+    font-family: var(--fonte-texto-regular);
+    font-size: 1rem;
+    color: var(--preto-claro);
+    padding-bottom: 1rem;
+}
 
+.FAQ__link {
+    text-decoration: none;
+    font-family: var(--fonte-texto-regular);
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    color: var(--cor_preto);
+    transition: 1s;
+}
+
+.FAQ__link:hover {
+    color: var(--cor_cinza-principal);
+    font-size: 1.1rem;
+}
+
+.logoFAQ>picture>image {
+    overflow: hidden;
+}
+
+.rodape__completo {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    padding: 2rem;
+    background-color: var(--cor_cinza-principal);
+    font-family: var(--fonte-texto-regular);
+    color: var(--branco);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 2rem;
+}
+
+.rodape__empresas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rodape__empresas--titulo {
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.rodape__empresas--conteudo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 1.2rem;
+}
+
+.re__conteudo--item>a {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1rem;
+}
+
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rodape__disclaimer {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
 
 
 
