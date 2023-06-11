@@ -46,57 +46,91 @@
       </picture>
     </section>
 
-    <section class="card">
-      <div class="card__cloud">
-        <picture><img src="../static/images/Cloud.svg" alt="" /></picture>
-        <h4>Nossa Cloud</h4>
-        <p>
-          Nossos serviços utilizando apenas cloud, mostram dinâmica e
-          eficiência em sua utilização
-        </p>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__descricao">
+              <picture><img src="../static/images/Cloud.svg" alt="" /></picture>
+              <h4>Nossa Cloud</h4>
+              <p>
+                Nossos serviços utilizando apenas cloud, mostram dinâmica e
+                eficiência em sua utilização
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__descricao">
+              <picture><img src="../static/images/clouddownload.svg" alt="" /></picture>
+              <h4>Cloud Download</h4>
+              <p>
+                Através deste serviço, pode-se realizar download de diferentes
+                arquivos em nuvem
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__descricao">
+              <picture><img src="../static/images/cloudserver.svg" alt="" /></picture>
+              <h4>Cloud Server</h4>
+              <p>
+                Através deste serviço, pode -se realizar a criação de um servidor
+                cloud para seus produtos
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__descricao">
+              <picture><img src="../static/images/CloudHorse.svg" alt="" /></picture>
+              <h4>CloudHorse</h4>
+              <p>
+                Nosso produto mais inovador. CloudHorse é um serviço em nuvem, que
+                pode usar Git, deploy e server ao mesmo tempo, de forma única e
+                concisa
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__descricao">
+              <picture><img src="../static/images/CloudShell.svg" alt="" /></picture>
+              <h4>VM Cloud</h4>
+              <p>
+                Nossa máquina virtual em nuvem, pode te auxiliar em Bancos de Dados
+                criados, além da melhor organização no seu principal servidor
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__descricao">
+              <picture><img src="../static/images/cloudDevOps.svg" alt="" /></picture>
+              <h4>Cloud DevOps</h4>
+              <p>
+                Utilizando a infraestrutura em Nuvem, pode-se criar diferentes
+                serviços, em uma única instância
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card2">
-        <picture><img src="../static/images/clouddownload.svg" alt="" /></picture>
-        <h4>Cloud Download</h4>
-        <p>
-          Através deste serviço, pode-se realizar download de diferentes
-          arquivos em nuvem
-        </p>
-      </div>
-      <div class="card3">
-        <picture><img src="../static/images/cloudserver.svg" alt="" /></picture>
-        <h4>Cloud Server</h4>
-        <p>
-          Através deste serviço, pode -se realizar a criação de um servidor
-          cloud para seus produtos
-        </p>
-      </div>
-      <div class="card__cloud">
-        <picture><img src="../static/images/CloudHorse.svg" alt="" /></picture>
-        <h4>CloudHorse</h4>
-        <p>
-          Nosso produto mais inovador. CloudHorse é um serviço em nuvem, que
-          pode usar Git, deploy e server ao mesmo tempo, de forma única e
-          concisa
-        </p>
-      </div>
-      <div class="card2">
-        <picture><img src="../static/images/CloudShell.svg" alt="" /></picture>
-        <h4>VM Cloud</h4>
-        <p>
-          Nossa máquina virtual em nuvem, pode te auxiliar em Bancos de Dados
-          criados, além da melhor organização no seu principal servidor
-        </p>
-      </div>
-      <div class="card3">
-        <picture><img src="../static/images/cloudDevOps.svg" alt="" /></picture>
-        <h4>Cloud DevOps</h4>
-        <p>
-          Utilizando a infraestrutura em Nuvem, pode-se criar diferentes
-          serviços, em uma única instância
-        </p>
-      </div>
-    </section>
+    </div>
 
     <section class="informacoes">
       <section class="informacoes__perfis">
@@ -243,6 +277,22 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      breakpoints: {
+        1192: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      }
+    }
+    });
+  </script>
 </body>
 
 </html>
