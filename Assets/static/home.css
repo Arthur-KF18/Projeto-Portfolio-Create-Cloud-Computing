@@ -57,8 +57,25 @@
     width: 40vw;
 }
 
+.tituloswiper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    padding: 3rem 8rem 3rem 8rem;
+    width: 25vw;
+}
+
+.tituloswiper__conteudo {
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.5rem;
+    text-align: left;
+}
+
 .swiper {
     width: 80vw;
+    margin: 4rem 0 4rem 0;
 }
 
 .card {
@@ -68,7 +85,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-   
+
 }
 
 .card__descricao {
@@ -81,7 +98,7 @@
     color: var(--branco);
     font-family: var(--fonte-texto-regular);
     text-align: left;
-}   
+}
 
 .card__descricao>picture {
     display: flex;
@@ -90,12 +107,13 @@
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-}       
+}
 
 @media (max-width: 920px) {
     .swiper {
         width: 60vw;
     }
+
     .card__descricao {
         width: 20vw;
         margin: 1rem;
