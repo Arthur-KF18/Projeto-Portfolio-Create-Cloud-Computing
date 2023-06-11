@@ -1,0 +1,122 @@
+@import url('../static/style.css');
+
+html {
+    background-color: var(--branco);
+    scroll-behavior: smooth;
+}
+
+.header__secao {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor_cinza-principal);
+    padding: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secao__lista {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.5rem;
+}
+
+.secao__lista>li {
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.secao__lista>li>a {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    transition: 1s;
+}
+
+.secao__lista>li>a:hover {
+    color: var(--cinza-escuro);
+    transition: 1s;
+}
+
+/* BANNER PRINCIPAL */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../static/images/reunião-opaco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.banner>h1 {
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 7rem;
+    color: var(--cor_cinza-principal);
+    opacity: 100%;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao__texto {
+    font-family: var(--fonte-texto-regular);
+    font-size: 1.2rem;
+    color: var(--cor_preto);
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao__texto>p {
+    padding: 2rem;
+}
+
+.apresentacao__cards>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.apresentacao__cards__itens {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor_cinza-principal);
+    height: 5vh;
+    width: 10vw;
+    gap: 1rem;
+}
+
+.apresentacao__cards__itens>img {
+    width: 5vw;
+    height: 10vh;
+}
+
+.infomativocloud {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    font-family: var(--fonte-texto-regular);
+}
+
+.infomativocloud>img {
+    width: 5vw;
+    height: 10vh;
+    color: #2b2b2b; 
+    background-color: pink;
+}
