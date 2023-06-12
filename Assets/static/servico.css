@@ -1,2 +1,6 @@
 @import url('../static/style.css');
 
+.descricao_superior {
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+}
