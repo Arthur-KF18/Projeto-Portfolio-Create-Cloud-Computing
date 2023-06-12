@@ -18,11 +18,15 @@
 </head>
 
 <header>
-    <img src="../static/images/Logo.png" alt="Logo">
-    <a href="home">Home</a>
-    <a href="ajuda">Ajuda</a>
-    <a href="my_account">Minha Conta</a>
-    <img src="../static/images/usuário.svg" alt="Usuario">
+    <section class="header__secao">
+        <picture><img src="../static/images/Logo.png" alt="logo.CCC" /></picture>
+        <ul class="secao__lista">
+            <li><a href="/">Home</a></li>
+            <li><a href="sobre">Sobre</a></li>
+            <li><a href="servico">Serviços</a></li>
+            <li><a href="central_login">Login</a></li>
+        </ul>
+    </section>
 </header>
 
 <body>
@@ -93,25 +97,32 @@
 </body>
 
 <footer>
-    <section class="rodape">
-        <div class="rodape__empresas">
-            <h2 class="rodape__empresas--titulo">Nossas Empresas</h2>
-            <ul class="rodape__empresas--conteudo">
-                <li class="re__conteudo--item"> <a href="#"> CloudCompanion</a>
-                </li>
-                <li class="re__conteudo--item"> <a href="#"> Cloud Network</a></li>
-                <li class="re__conteudo--item"> <a href="#"> Venha fazer parte do nosso time</a></li>
-            </ul>
+    <section class="rodape__completo">
+        <div class="rodape">
+            <div class="rodape__empresas">
+                <h2 class="rodape__empresas--titulo">Nossas Empresas</h2>
+                <ul class="rodape__empresas--conteudo">
+                    <li class="re__conteudo--item"><a href="#"> CloudCompanion</a></li>
+                    <li class="re__conteudo--item"><a href="#"> Cloud Network</a></li>
+                    <li class="re__conteudo--item">
+                        <a href="#"> Venha fazer parte do nosso time</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="rodape__contato">
+                <h2 class="rodape__empresas--titulo">Contate-nos</h2>
+                <ul class="rodape__empresas--conteudo">
+                    <li class="re__conteudo--item">
+                        <a href="#"> CloudCompanion@Cloud.com.br</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="rodape__contato">
-            <h2 class="rodape__empresas--titulo">Contate-nos</h2>
-            <ul class="rodape__empresas--conteudo">
-                <li class="re__conteudo--item"> <a href="#"> CloudCompanion@Cloud.com.br</a>
-                </li>
-            </ul>
-        </div>
+        <h4 class="rodape__disclaimer">
+            Copyright &copy;CCC, Todos os direitos reservados   
+        </h4>
     </section>
-    <h4 class="rodape__disclaimer">Copyright &copy;CCC, Todos os direitos reservados</h4>
+
 </footer>
 
 </html>

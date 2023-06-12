@@ -60,6 +60,8 @@ html {
     opacity: 100%;
 }
 
+/* TEXTO PRINCIPAL */
+
 .apresentacao {
     display: flex;
     flex-direction: column;
@@ -83,40 +85,68 @@ html {
     padding: 2rem;
 }
 
+/* CARDS - SOBRE */
+
+.apresentacao__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
 .apresentacao__cards>ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     list-style: none;
+    gap: 1rem;
 }
 
 .apresentacao__cards__itens {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor_cinza-principal);
-    height: 5vh;
-    width: 10vw;
-    gap: 1rem;
+    height: 20vh;
+    width: 25vw;
+}
+
+.apresentacao__cards__itens {
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1.2rem;
+    color: var(--branco);
+    transition: 1s;
 }
 
 .apresentacao__cards__itens>img {
     width: 5vw;
-    height: 10vh;
+    height: 5vh;
+    padding-bottom: 1rem;
 }
+
+.apresentacao__cards__itens:hover {
+    background-color: var(--cor_preto);
+    transition: 1s;
+}
+
+/* INFORMATIVO */
 
 .infomativocloud {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     height: 40vh;
     font-family: var(--fonte-texto-regular);
+    font-size: 1.2rem;    
 }
 
 .infomativocloud>img {
     width: 5vw;
-    height: 10vh;
-    color: #2b2b2b; 
-    background-color: pink;
+    height: 8vh;
+    padding-bottom: 1.3rem;
 }
