@@ -1,12 +1,13 @@
 @import url('../static/style.css');
 
 @keyframes slider {
+
     0% {
-        margin-left: 0;
+        margin-left: 100vw;
     }
 
     100% {
-        margin-left: 130%;
+        margin-left: -110vw;
     }
 }
 
@@ -75,7 +76,7 @@ html {
     width: 35vw;
 }
 
-.secao2__texto>h1:hover{
+.secao2__texto>h1:hover {
     color: var(--cinza-escuro);
     transition: 1s;
 }
@@ -268,12 +269,11 @@ html {
 .EmpresasParceiras__Conteudo {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     width: 100%;
     gap: 4rem;
-    animation: slider 25s infinite linear;
+    animation: slider 20s linear infinite;
 }
-
+ 
 .EmpresasParceiras__Conteudo>img {
     height: 8vh;
 }
