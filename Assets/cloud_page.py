@@ -88,6 +88,9 @@ def autenticar():
     if usuario:
         session['usuario_logado'] = email
         proxima_pagina = request.form['proxima']
+
+        global usuario_logado_info
+        usuario_logado_info = [email,senha]
         
         if proxima_pagina == '/':
             proxima_pagina = '/home'
@@ -95,6 +98,7 @@ def autenticar():
     else:
         flash('E-mail ou Senha invalido')
         return redirect(url_for('login'))
+
 
 @app.route('/home')
 
@@ -106,7 +110,8 @@ def home_logged():
 @app.route('/my_account')
 
 def my_account():
-    return render_template('minha_conta.html')
+
+    return render_template('minha_conta.html',user=usuario_logado_info)
 
 if __name__=='__main__':
     app.run(debug=True)
