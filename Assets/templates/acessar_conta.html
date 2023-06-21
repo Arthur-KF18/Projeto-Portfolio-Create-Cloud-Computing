@@ -25,13 +25,13 @@
     </header>
     <section>
         {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <ul id="messages" class="list-unstyled">
-                {% for message in messages %}
-                    <li class="alert alert-success">{{ message }}</li>
-                {% endfor %}
-                </ul>
-            {% endif %}
+        {% if messages %}
+        <ul id="messages" class="list-unstyled">
+            {% for message in messages %}
+            <li class="alert alert-success">{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
         {% endwith %}
     </section>
     <main class="centraliza_conteudo">
@@ -45,15 +45,13 @@
                     <input type="hidden" name="proxima" value="{{ proxima or url_for('home') }}">
                     <div class="conteudo_login__input__especificado">
                         <label class="conteudo_login__input__label">Seu e-mail</label>
-                        <input class="form-control" type="text" name="email" required
-                        placeholder="Seuemail@domíno.com">
+                        <input class="form-control" type="text" name="email" required placeholder="Seuemail@domíno.com">
                     </div>
                     <div class="conteudo_login__input__especificado">
-                        <label class="conteudo_login__input__label">Sua Senha</label> 
-                        <input class="form-control" type="password" name="senha" required
-                        placeholder="Suasenha">
+                        <label class="conteudo_login__input__label">Sua Senha</label>
+                        <input class="form-control" type="password" name="senha" required placeholder="Suasenha">
                         <a class="forgot_password" href="">Esqueceu a sua senha?</a>
-                    </div> 
+                    </div>
                 </div>
                 <button class="conteudo_login__button" type="submit">Acessar Conta</button>
             </form>

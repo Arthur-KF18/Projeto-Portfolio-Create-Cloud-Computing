@@ -29,105 +29,159 @@
                 <li><a href="ajuda">Ajuda</a></li>
                 <li><a href="my_account">Minha Conta</a></li>
             </ul>
-            <img src="../static/images/usuário.svg" alt="">
+            <img src="../static/images/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg" alt="">
         </div>
     </header>
 
     <main>
-        <section class="instancias">
-            <h1>Criar uma nova instância</h1>
-            <div>
-                <img src="../static/images/Cloud.svg" alt="nuvem">
-                <p>Cloud</p>
-            </div>
-            <div>
-                <img src="../static/images/clouddownload.svg" alt="Cloud Download">
-                <p>Cloud Dowload</p>
-            </div>
-            <div>
-                <img src="../static/images/cloudserver.svg" alt="Cloud Server">
-                <p>Cloud Server</p>
-            </div>
-            <div>
-                <img src="../static/images/CloudHorse.svg" alt="CloudHorse">
-                <p>CloudHorse</p>
-            </div>
-            <div>
-                <img src="../static/images/CloudShell.svg" alt="VM Cloud">
-                <p>VM Cloud</p>
-            </div>
-            <div>
-                <img src="../static/images/cloudDevOps.svg" alt="Cloud DevOps">
-                <p>Cloud DevOps</p>
-            </div>
+        <section class="instanciasControle">
+            <section class="instancias">
+                <h1>Criar uma nova instância</h1>
+                <div>
+                    <img src="../static/images/Cloud.svg" alt="nuvem">
+                    <p>Cloud</p>
+                </div>
+                <div>
+                    <img src="../static/images/clouddownload.svg" alt="Cloud Download">
+                    <p>Cloud Dowload</p>
+                </div>
+                <div>
+                    <img src="../static/images/cloudserver.svg" alt="Cloud Server">
+                    <p>Cloud Server</p>
+                </div>
+                <div>
+                    <img src="../static/images/CloudHorse.svg" alt="CloudHorse">
+                    <p>CloudHorse</p>
+                </div>
+                <div>
+                    <img src="../static/images/CloudShell.svg" alt="VM Cloud">
+                    <p>VM Cloud</p>
+                </div>
+                <div>
+                    <img src="../static/images/cloudDevOps.svg" alt="Cloud DevOps">
+                    <p>Cloud DevOps</p>
+                </div>
+            </section>
+
+            <section class="user_instancias">
+                <h1>Minhas Instâncias</h1>
+                <ul class="user_instancias__list">
+                    <li>
+                        <div>
+                            <img src="../static/images/cloudserver.svg" alt="nuvem_upload">
+                            <p>Cloud Server</p>
+                        </div>
+                        <p>Status: Ativa</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="../static/images/CloudHorse.svg" alt="nuvem_dowload">
+                            <p>CloudHorse</p>
+                        </div>
+                        <p>Status: Desligada</p>
+                    </li>
+                </ul>
+            </section>
         </section>
 
-        <section class="user_instancias">
-            <h1>Minhas Instâncias</h1>
-            <ul class="user_instancias__list">
-                <li>
-                    <div>
-                        <img src="../static/images/cloudserver.svg" alt="nuvem_upload">
-                        <p>Cloud Server</p>
+
+        <section class="infoSwipper">
+            <section class="informacao_texto">
+                <h1>Informações sobre nossas instâncias</h1>
+                <p>Nossa empresa oferece serviço SaaS na nuvem. Com instâncias em cloud services confiáveis, proporcionamos uma experiência escalável e flexível aos clientes. Aproveitamos a infraestrutura de plataformas líderes como AWS e Azure para garantir disponibilidade, segurança e eficiência.
+                </p>
+                <p>Desenvolvemos soluções inovadoras que aliviam o ônus do gerenciamento, permitindo aos usuários focar na inovação. Com redundância e proteção de dados robusta, entregamos um software confiável e acessível. Nossa combinação de tecnologias garante alta qualidade, com atualizações e manutenção sob nossa responsabilidade. </p>
+                <p>Simplificamos o SaaS na nuvem.</p>
+            </section>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__descricao">
+                                <picture><img src="../static/images/Cloud.svg" alt="" /></picture>
+                                <h4>Nossa Cloud</h4>
+                                <p>
+                                    Nossos serviços utilizando apenas cloud, mostram dinâmica e
+                                    eficiência em sua utilização
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <p>Status: Ativa</p>
-                </li>
-                <li>
-                    <div>
-                        <img src="../static/images/CloudHorse.svg" alt="nuvem_dowload">
-                        <p>CloudHorse</p>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__descricao">
+                                <picture><img src="../static/images/clouddownload.svg" alt="" /></picture>
+                                <h4>Cloud Download</h4>
+                                <p>
+                                    Através deste serviço, pode-se realizar download de diferentes
+                                    arquivos em nuvem
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <p>Status: Desligada</p>
-                </li>
-            </ul>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__descricao">
+                                <picture><img src="../static/images/cloudserver.svg" alt="" /></picture>
+                                <h4>Cloud Server</h4>
+                                <p>
+                                    Através deste serviço, pode -se realizar a criação de um servidor
+                                    cloud para seus produtos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__descricao">
+                                <picture><img src="../static/images/CloudHorse.svg" alt="" /></picture>
+                                <h4>CloudHorse</h4>
+                                <p>
+                                    Nosso produto mais inovador. CloudHorse é um serviço em nuvem, que
+                                    pode usar Git, deploy e server ao mesmo tempo, de forma única e
+                                    concisa
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__descricao">
+                                <picture><img src="../static/images/CloudShell.svg" alt="" /></picture>
+                                <h4>VM Cloud</h4>
+                                <p>
+                                    Nossa máquina virtual em nuvem, pode te auxiliar em Bancos de Dados
+                                    criados, além da melhor organização no seu principal servidor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__descricao">
+                                <picture><img src="../static/images/cloudDevOps.svg" alt="" /></picture>
+                                <h4>Cloud DevOps</h4>
+                                <p>
+                                    Utilizando a infraestrutura em Nuvem, pode-se criar diferentes
+                                    serviços, em uma única instância
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="informacao_texto">
-            <h1>Informações sobre nossas instâncias</h1>
-            <p>Nossa empresa oferece serviço SaaS na nuvem. Com instâncias em cloud services confiáveis, proporcionamos
-                uma experiência escalável e flexível aos clientes. Aproveitamos a infraestrutura de plataformas líderes
-                como AWS e Azure para garantir disponibilidade, segurança e eficiência. Desenvolvemos soluções
-                inovadoras que aliviam o ônus do gerenciamento, permitindo aos usuários focar na inovação. Com
-                redundância e proteção de dados robusta, entregamos um software confiável e acessível. Nossa combinação
-                de tecnologias garante alta qualidade, com atualizações e manutenção sob nossa responsabilidade.
-                Simplificamos o SaaS na nuvem.
-            </p>
-        </section>
 
-        <section class="card">
-            <div class="card__cloud">
-                <picture><img src="../static/images/Cloud.svg" alt=""></picture>
-                <h4>Nossa Cloud</h4>
-                <p> Nossos serviços utilizando apenas cloud, mostram dinâmica e eficiência em sua utilização</p>
-            </div>
-            <div class="card2">
-                <picture><img src="../static/images/clouddownload.svg" alt=""></picture>
-                <h4>Cloud Download</h4>
-                <p> Através deste serviço, pode-se realizar download de diferentes arquivos em nuvem</p>
-            </div>
-            <div class="card3">
-                <picture><img src="../static/images/cloudserver.svg" alt=""></picture>
-                <h4>Cloud Server</h4>
-                <p> Através deste serviço, pode -se realizar a criação de um servidor cloud para seus produtos</p>
-            </div>
-            <div class="card__cloud">
-                <picture><img src="../static/images/CloudHorse.svg" alt=""></picture>
-                <h4>CloudHorse</h4>
-                <p> Nosso produto mais inovador. CloudHorse é um serviço em nuvem, que pode usar Git, deploy e server ao
-                    mesmo tempo, de forma única e concisa</p>
-            </div>
-            <div class="card2">
-                <picture><img src="../static/images/CloudShell.svg" alt=""></picture>
-                <h4>VM Cloud</h4>
-                <p> Nossa máquina virtual em nuvem, pode te auxiliar em Bancos de Dados criados, além da melhor
-                    organização no seu principal servidor</p>
-            </div>
-            <div class="card3">
-                <picture><img src="../static/images/cloudDevOps.svg" alt=""></picture>
-                <h4>Cloud DevOps</h4>
-                <p> Utilizando a infraestrutura em Nuvem, pode-se criar diferentes serviços, em uma única instância</p>
-            </div>
-        </section>
+
 
         <section class="exemplos_forum">
             <h1>Questões feitas no Fórum</h1>
@@ -206,8 +260,8 @@
         </section>
         <h4 class="rodape__disclaimer">Copyright &copy;CCC, Todos os direitos reservados</h4>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../static/main.js"></script>
 </body>
 
 </html>

@@ -71,6 +71,7 @@
     font-family: var(--fonte-texto-regular);
     font-size: 1rem;
 }
+
 .conteudo_login__input__especificado>input{
     border-radius: 8px;
     height: 3.54vh;
@@ -95,15 +96,15 @@
     height: 3.65vh;
     border-radius: 8px;
 }
-footer{
+.rodape__disclaimer{
     background-color: var(--cor_cinza-principal);
     height: 6.62vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-footer>h4{
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: var(--cor_conteudo);
+    position: absolute;
+    bottom: 0;
+    font-family: var(--fonte-principal);
 }

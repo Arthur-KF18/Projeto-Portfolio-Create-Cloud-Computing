@@ -69,17 +69,17 @@
     align-items: center;
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
-footer{
+.rodape__disclaimer{
     background-color: var(--cor_cinza-principal);
     height: 6.62vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-footer>h4{
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: var(--cor_conteudo);
+    position: absolute;
+    bottom: 0;
+    font-family: var(--fonte-principal);
 }
