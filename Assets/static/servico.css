@@ -1,6 +1,102 @@
 @import url('../static/style.css');
 
-.descricao_superior {
+* {
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
+}
+
+.descricao_superior {}
+
+.bannerServicoCompleto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicoBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;  
+}
+
+.servicoBanner__direcao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 45vw;
+    padding: 3rem;
+    color: var(--branco, #F2F2F2);
+    background: var(--preto-claro, #232F3E);
+}
+
+.sb__d--informacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    width: 18rem;
+    gap: 0.6rem;    
+}
+
+.sb__d--informacao> h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1.2rem;   
+}
+
+.sb__d--informacao> p {
+    font-size: 1rem;
+    text-align: center; 
+}
+
+.sb__d--informacao>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.sb__d--horas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.sb__d--horas>h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.sb__d--horas>p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sb__d--custo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.sb__d--custo>h1 {
+    font-size: 4rem;
+    
+}
+
+.sb__d--custo>h2 {
+    font-size: 1.2rem;
+}
+
+.sb__d--custo>p {
+    text-align: center;
+    font-size: 0.8rem;
 }
