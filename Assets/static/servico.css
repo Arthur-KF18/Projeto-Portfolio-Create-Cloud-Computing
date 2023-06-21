@@ -5,13 +5,33 @@
     font-weight: var(--fonte-principal-bold);
 }
 
-.descricao_superior {}
+.descricaoSuperior {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 100%;
+    gap: 1rem;
+}
+
+.descricaoSuperior>h1 {
+    font-size: 3rem;
+}
+
+.descricaoSuperior>p{
+    font-size: 1.3rem;
+    width: 75vw;
+}
 
 .bannerServicoCompleto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .servicoBanner {
