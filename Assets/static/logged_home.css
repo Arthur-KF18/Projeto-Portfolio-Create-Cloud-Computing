@@ -149,7 +149,7 @@
 .informacao_texto {
     margin: 0 1rem;
     background-color: var(--cor_cinza-esboco);
-    width:40vw;
+    width: 40vw;
     height: 43vh;
     padding: 1rem;
     display: flex;
@@ -225,86 +225,96 @@
     padding: 0.5rem;
 }
 
+/* Comentários do Fórum */
+
 .exemplos_forum {
-    margin: 4.8vh 1vw;
-    width: 129.65vw;
-    height: 29.82vh;
     display: flex;
     flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
     gap: 36px;
-
 }
 
 .exemplos_forum>h1 {
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .exemplos_forum__comentarios {
     display: flex;
-    gap: 24px;
-
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .exemplos_forum__comentarios>li {
     background-color: var(--cor_cinza-esboco);
-    width: 29.1vw;
-    height: 22.05vh;
+    width: 25vw;
+    height: 24vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 1.83vw;
+    padding: 1rem 2rem;
 }
 
-.exemplos_forum__comentarios__dados-user {
+.exfc--usuarios {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
-.exemplos_forum__comentarios__dados-user>img {
-    width: 56px;
+.exfc--usuarios>img {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    object-fit: cover;
 }
 
-.exemplos_forum__comentarios__dados-user>div {
+.exfc--usuarios>div {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.exemplos_forum__comentarios__dados-user>div>h1 {
-    font-family: var(--fonte-texto-regular);
-    font-size: 0.75rem;
+.exfc--usuarios>div>h1 {
+    font-family: var(--fonte-principal-boldr);
+    font-size: 1.5rem;
 }
 
-.exemplos_forum__comentarios__dados-user>div>h2 {
+.exfc--usuarios>div>h2 {
     font-family: var(--fonte-texto-regular);
-    font-size: 0.5rem;
+    font-size: 1rem;
 
 }
 
-.exemplos_forum__comentarios>li>h2 {
+.exfc--duvidas {
+    display: flex;
+    flex-direction: column;
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
     font-size: 1rem;
+    gap: 1.5rem;
 }
 
-.exemplos_forum__comentarios>li>p {
-    width: 28vw;
-    height: 6.85vh;
+.exfc--duvidas>p {
     font-family: var(--fonte-texto-regular);
     font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Questões do fórum */
+
 .questoes_forum {
-    margin: 4.8vh 1vw;
-    width: 129.65vw;
-    height: 19.77vh;
     display: flex;
     flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
     gap: 36px;
 }
 
@@ -314,49 +324,63 @@
     font-size: 1.5rem;
 }
 
-footer {
-    margin: 100px 0 0 0;
-    background-color: var(--cor_cinza-principal);
-    height: 24.8vh;
+/* Rodapé da página */
+
+.rodape__completo {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    height: 20vh;
+    padding: 2rem;
+    background-color: var(--cor_cinza-principal);
+    font-family: var(--fonte-texto-regular);
+    color: var(--branco);
 }
 
 .rodape {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 0 4.13vw;
+    align-items: center;
+    height: 20vh;
+    padding: 2rem;
 }
 
 .rodape__empresas {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .rodape__empresas--titulo {
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
-    font-size: 1rem;
-    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
 }
 
 .rodape__empresas--conteudo {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    font-size: 1rem;
+    gap: 1.2rem;
 }
 
 .re__conteudo--item>a {
-    color: var(--cor_conteudo);
     text-decoration: none;
-    font-family: var(--fonte-texto-regular);
-    font-size: 0.75rem;
+    color: var(--branco);
+    font-size: 1rem;
 }
 
-footer>h4 {
+.rodape__contato {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    color: var(--cor_conteudo);
+    align-items: flex-start;
+}
+
+.rodape__disclaimer {
+    display: flex;
+    align-self: center;
+    justify-self: center;
 }
