@@ -1,25 +1,13 @@
 @import url('../static/style.css');
 
-.cabecalho{
-    background-color: var(--cor_cinza-principal);
-    display: flex;
-    justify-content: space-between;
-    padding: 2.5rem;
-    align-items: center;
-}
-.cabecalho__link{
-    text-decoration: none;
-    color: white;
-    font-family: var(--fonte-principal);
-    font-size: 1.5rem;
-}
-.centraliza_conteudo{
+.centraliza_conteudo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
 }
-.conteudo_central_login{
+
+.cc_login {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +18,8 @@
     border-radius: 12px;
     gap: 24px;
 }
-.conteudo_central_login__text{
+
+.cc_login--text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,26 +27,30 @@
     gap: 16px;
     color: white;
 }
-.conteudo_central_login__text>h1{
+
+.cc_login--text>h1 {
     font-family: var(--fonte-principal);
-    font-weight: var(--fonte-principal-bold); 
+    font-weight: var(--fonte-principal-bold);
     font-size: 1.5rem;
 }
-.conteudo_central_login__text>p{
+
+.cc_login--text>p {
     font-family: var(--fonte-texto-regular);
     font-size: 1rem;
     width: 24.6vw;
     height: 4.57vh;
     text-align: center;
 }
-.conteudo_central_login__links{
+
+.cc_login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 22px;
 }
-.conteudo_central_login__links__itens{
+
+.cc_login--itens {
     text-decoration: none;
     background-color: white;
     color: var(--cor_cinza-principal);
@@ -71,7 +64,8 @@
     font-weight: var(--fonte-principal-bold);
     font-size: 1rem;
 }
-.rodape__login{
+
+.rodape__login {
     background-color: var(--cor_cinza-principal);
     height: 6.62vh;
     width: 100%;

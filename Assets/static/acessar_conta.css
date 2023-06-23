@@ -35,7 +35,7 @@
     height: 80vh;
 }
 
-.conteudo_cadastro {
+.conteudo_cadastro, .conteudo_login {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +62,13 @@
     font-size: 2rem;
 }
 
+.conteudo_central_login__text>p {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 1rem;
+}
+
 .conteudo_cadastro__input {
     display: flex;
     flex-direction: column;
@@ -71,14 +78,15 @@
     color: white;
 }
 
-.conteudo_cadastro__input__especificado {
+.conteudo_cadastro__input__especificado, .conteudo_login__input__especificado {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.conteudo_cadastro__input__label {
+.conteudo_cadastro__input__label, .conteudo_login__input__label {
     font-family: var(--fonte-texto-regular);
+    color: var(--branco);
     font-size: 1rem;
 }
 
@@ -88,6 +96,13 @@
     padding-left: 8px;
 }
 
+.conteudo_login__input__especificado>input{
+    border-radius: 0.8rem;
+    height: 4vh;
+    width: 30vw;
+    padding-left: 0.8rem;
+}
+
 .forgot_password {
     text-decoration: none;
     color: white;
@@ -95,7 +110,7 @@
     font-size: 0.75rem;
 }
 
-.conteudo_cadastro__button {
+.conteudo_cadastro__button, .conteudo_login__button {
     display: flex;
     justify-content: center;
     align-items: center;
