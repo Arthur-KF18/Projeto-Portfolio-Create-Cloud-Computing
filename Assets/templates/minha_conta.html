@@ -2,102 +2,108 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Conta</title>
-    <link rel="icon" href="../images/Logo.png">
-    <link href="../static/reset.css" rel="stylesheet">
-    <link href="../static/style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minha Conta</title>
+	<link rel="icon" href="../images/Logo.png">
+	<link href="../static/reset.css" rel="stylesheet">
+	<link href="../static/style.css" rel="stylesheet">
 
-    <!-- fontes utilizadas -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Red+Hat+Display:wght@500;700&display=swap"
-        rel="stylesheet">
+	<!-- fontes utilizadas -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Red+Hat+Display:wght@500;700&display=swap"
+		rel="stylesheet">
 </head>
 
 <header>
-    <section class="header__secao">
-        <picture><img src="../static/images/Cloud.png" alt="logo.CCC"></picture>
-        <ul class="secao__lista">
-            <li> <a href="home">Home</a></li>
-            <li> <a href="ajuda">Ajuda</a></li>
-            <li> <a href="my_account">Minha Conta</a></li>
-            <picture><img src="../static/images/foto_de_perfil01.png" alt="Foto de Perfil"></picture>
-        </ul>
-    </section>
+	<section class="header__secao">
+		<picture><img src="../static/images/Logo.png" alt="logo.CCC" /></picture>
+		<div class="cabecalho__nav">
+			<ul class="secao__lista">
+				<li><a href="home">Home</a></li>
+				<li><a href="ajuda">Ajuda</a></li>
+				<li><a href="my_account">Minha Conta</a></li>
+			</ul>
+			<img src="../static/images/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg" alt="">
+		</div>
+	</section>     
 </header>
 
 <body>
-    <section>
-        <img src="../static/images/foto_de_perfil01.png" alt="Foto de Perfil">
-        <div>
-            <h2>Gerencie sua Conta</h2>
-        </div>
-    </section>
-    <section>
-        <div>
-            <img src="../static/images/usuario.svg" alt="Usuario">
-            <div>
-                <a href="#"><h3>Alterar nome do perfil</h3></a>
-                <a href="#"><p>Editar Biografia</p></a>
-            </div>
-        </div>
-        <div>
-            <h2>Dados Pessoais</h2>
-            <h4>E-mail</h4>
-            <p> {{ user[0]}}</p>
-            <h4>Senha</h4>
-            <p> {{ user[1]}}</p>
-            <div>
-                <a href="">Alterar Senha</a> 
-            </div>  
-        <div>
-        <div>
-            <h2>Dados do Cartão</h2>
-            <h4>Dados do Cartão</h4>
-            <input type="text" placeholder="Nome no Cartão">
-            <h4>Validade do Cartão</h4>
-            <input type="date" placeholder="MM/AA">
-            <div>
-                <a href="">Editar Cartões</a> 
-            </div> 
-        <div>
-    </section>
-    <section>
-        <h1>FREE</h1>
-        <h3>Válido por 1 ANO</h3>
-    </section>
+	<section>
+		<img src="../static/images/foto_de_perfil01.png" alt="Foto de Perfil">
+		<div>
+			<h2>Gerencie sua Conta</h2>
+		</div>
+	</section>
+	<section>
+		<div>
+			<img src="../static/images/usuario.svg" alt="Usuario">
+			<div>
+				<a href="#">
+					<h3>Alterar nome do perfil</h3>
+				</a>
+				<a href="#">
+					<p>Editar Biografia</p>
+				</a>
+			</div>
+		</div>
+		<div>
+			<h2>Dados Pessoais</h2>
+			<h4>E-mail</h4>
+			<p> {{ user[0]}}</p>
+			<h4>Senha</h4>
+			<p> {{ user[1]}}</p>
+			<div>
+				<a href="">Alterar Senha</a>
+			</div>
+			<div>
+				<div>
+					<h2>Dados do Cartão</h2>
+					<h4>Dados do Cartão</h4>
+					<input type="text" placeholder="Nome no Cartão">
+					<h4>Validade do Cartão</h4>
+					<input type="date" placeholder="MM/AA">
+					<div>
+						<a href="">Editar Cartões</a>
+					</div>
+					<div>
+	</section>
+	<section>
+		<h1>FREE</h1>
+		<h3>Válido por 1 ANO</h3>
+	</section>
 </body>
 
 <footer>
-    <section class="rodape__completo">
-      <div class="rodape">
-      <div class="rodape__empresas">
-        <h2 class="rodape__empresas--titulo">Nossas Empresas</h2>
-        <ul class="rodape__empresas--conteudo">
-          <li class="re__conteudo--item"><a href="#"> CloudCompanion</a></li>
-          <li class="re__conteudo--item"><a href="#"> Cloud Network</a></li>
-          <li class="re__conteudo--item">
-            <a href="#"> Venha fazer parte do nosso time</a>
-          </li>
-        </ul>
-      </div>
-      <div class="rodape__contato">
-        <h2 class="rodape__empresas--titulo">Contate-nos</h2>
-        <ul class="rodape__empresas--conteudo">
-          <li class="re__conteudo--item">
-            <a href="#"> CloudCompanion@Cloud.com.br</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-      <h4 class="rodape__disclaimer">
-        Copyright &copy;CCC, Todos os direitos reservados
-      </h4>
-    </section>
-    
-  </footer>
+	<section class="rodape__completo">
+		<div class="rodape">
+			<div class="rodape__empresas">
+				<h2 class="rodape__empresas--titulo">Nossas Empresas</h2>
+				<ul class="rodape__empresas--conteudo">
+					<li class="re__conteudo--item"><a href="#"> CloudCompanion</a></li>
+					<li class="re__conteudo--item"><a href="#"> Cloud Network</a></li>
+					<li class="re__conteudo--item">
+						<a href="#"> Venha fazer parte do nosso time</a>
+					</li>
+				</ul>
+			</div>
+			<div class="rodape__contato">
+				<h2 class="rodape__empresas--titulo">Contate-nos</h2>
+				<ul class="rodape__empresas--conteudo">
+					<li class="re__conteudo--item">
+						<a href="#"> CloudCompanion@Cloud.com.br</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<h4 class="rodape__disclaimer">
+			Copyright &copy;CCC, Todos os direitos reservados
+		</h4>
+	</section>
+
+</footer>
 
 </html>

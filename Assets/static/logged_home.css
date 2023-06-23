@@ -2,14 +2,6 @@
 
 
 /* CABEÇALHO */
-.cabecalho {
-    background-color: var(--cor_cinza-principal);
-    display: flex;
-    justify-content: space-between;
-    padding: 2.5rem;
-    align-items: center;
-}
-
 .cabecalho__nav {
     display: flex;
     justify-content: center;

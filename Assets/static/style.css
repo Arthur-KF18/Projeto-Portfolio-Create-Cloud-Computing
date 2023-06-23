@@ -1,6 +1,7 @@
 @import url('../static/home.css');
 @import url('../static/sobre.css');
 @import url('../static/servico.css');
+@import url('../static/logged_home.css');
 
 html {
     scroll-behavior: smooth;
