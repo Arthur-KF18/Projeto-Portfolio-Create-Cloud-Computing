@@ -1,7 +1,7 @@
 # A3-GQS.
-## Repositório contendo os arquivos do Trabalho A3 da Faculdade UAM, UC de Gestão e Qualidade de Software.
+## Repositório contendo os arquivos do Projeto A3 da Universidade Anhembi Morumbi, UC de Gestão e Qualidade de Software.
 
-### Alunos presentes no desenvolvimento do Trabalho:
+### Alunos presentes no desenvolvimento do Projeto:
 > [LinkedIn - Arthur](https://www.linkedin.com/).
 > 
 > [LinkedIn - Gustavo](https://www.linkedin.com/).
@@ -19,7 +19,7 @@
 
 ## Apresentação e ideia do Projeto.
 - Desenvolvimento de um Website utilizando as principais linguagens de programação:
-- Front-end: HTML e CSS.
+- Front-end: HTML, CSS e JavaScript.
 - Servidor: Vercel.
 - Banco de Dados: SQLite 3.
 - Framework: Flask.
@@ -45,8 +45,8 @@
 
 
 ## Como compilar o documento:
-- **É necessário o uso da versão do python mais recente**
-- no arquivo cloud_page.py, abre-se um terminal, nele usamos:
-- `pip install -r requirements.txt`
-- Através disso, é instalado o arquivo contendo todos os requisitos, assim sendo possível utilizar o Flask
-- Após isso, apenas executa-se o arquivo do cloud_page.py
+- **É necessário o uso da versão do Python mais atualizado**.
+- No arquivo cloud_page.py, abre-se um terminal, nele usamos o comando:
+- `pip install -r requirements.txt`.
+- Através disso, é instalado o arquivo contendo todos os requisitos, assim sendo possível utilizar o Flask.
+- Após isso, apenas executa-se o arquivo "cloud_page.py".
