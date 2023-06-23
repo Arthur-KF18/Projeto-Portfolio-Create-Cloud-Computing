@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 77.7vh;
+    height: 80vh;
 }
 .conteudo_central_login{
     display: flex;
@@ -71,7 +71,7 @@
     font-weight: var(--fonte-principal-bold);
     font-size: 1rem;
 }
-.rodape__disclaimer{
+.rodape__login{
     background-color: var(--cor_cinza-principal);
     height: 6.62vh;
     width: 100%;

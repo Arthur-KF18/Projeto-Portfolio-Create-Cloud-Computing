@@ -4,6 +4,8 @@
 @import url('../static/logged_home.css');
 @import url('../static/minha_conta.css');
 @import url('../static/acessar_conta.css');
+@import url('../static/ajuda.css');
+@import url('../static/central_login.css');
 
 html {
     scroll-behavior: smooth;

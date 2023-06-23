@@ -1,0 +1,87 @@
+@import url('../static/style.css');
+
+.header__ajuda{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    color: var(--branco);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor_cinza-principal);
+    padding: 2.5rem;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.ajudaTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 2rem;
+}
+
+.ajudaTotal>h2{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    color: var(--cor_cinza-principal);
+    font-size: 2.5rem;
+}
+
+.secaoAjuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: var(--preto-claro);
+    width: 40vw;
+    height: 30vh;
+    border-radius: 1.5rem;
+}
+
+.sa--box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.sa--box>h4{
+    font-family: var(--fonte-texto-regular);
+    font-weight: var(--fonte-principal-regular);
+    color: var(--branco);
+    font-size: 1.3rem;
+}
+
+.sa--box>input{
+    background-color: var(--branco);
+    font-family: var(--fonte-texto-regular);
+    color: var(--cor_cinza-principal);
+    width: 30vw;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--cor_conteudo);
+    padding: 0 1rem;
+}
+
+.controleBotao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 0 4rem;
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+}
+
+.cb--estilo{
+    text-decoration: none;
+    color: var(--cor_cinza-principal);
+    background-color: var(--cor_cinza-esboco);
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+}
