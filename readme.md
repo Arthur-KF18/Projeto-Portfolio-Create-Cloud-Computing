@@ -19,11 +19,11 @@
 
 ## Apresentação e ideia do Projeto.
 - Desenvolvimento de um Website utilizando as principais linguagens de programação:
-- Front-end: HTML, CSS e JavaScript.
+- Front-end: HTML, CSS, JavaScript e Python.
 - Servidor: Vercel.
 - Banco de Dados: SQLite 3.
 - Framework: Flask.
-- API: Swiper API
+- API: Swiper API.
 ---
 
 ## Descrição do Projeto
@@ -44,7 +44,7 @@
 - Formas de Pagamento.
 
 
-## Como compilar o documento:
+## Como compilar o Projeto:
 - **É necessário o uso da versão do Python mais atualizado**.
 - No arquivo cloud_page.py, abre-se um terminal, nele usamos o comando:
 - `pip install -r requirements.txt`.
