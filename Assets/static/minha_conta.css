@@ -13,7 +13,7 @@
     font-size: 1.3rem;
 }
 
-.perfil {
+.perfilConta {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,12 +21,12 @@
     padding: 3rem 0;
 }
 
-.perfil__titulo {
+.perfil__tituloConta {
     color: var(--branco);
     font-size: 2rem;
 }
 
-.fotoPerfil {
+.fotoPerfilConta {
     width: 80px;
     height: 80px;
     border-radius: 100%;
