@@ -1,19 +1,21 @@
 @import url('../static/style.css');
 
-.cabecalho{
+.cabecalho {
     background-color: var(--cor_cinza-principal);
     display: flex;
     justify-content: space-between;
     padding: 2.5rem;
     align-items: center;
 }
-.cabecalho__link{
+
+.cabecalho__link {
     text-decoration: none;
     color: white;
     font-family: var(--fonte-texto-regular);
     font-size: 1.5rem;
 }
-.alert{
+
+.alert {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,37 +26,43 @@
     font-weight: var(--fonte-principal-bold);
     font-size: 2rem;
 }
-.centraliza_conteudo{
+
+.centraliza_conteudo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 77.7vh;
+    height: 80vh;
 }
-.conteudo_login{
+
+.conteudo_cadastro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--cor_cinza-principal);
-    width: 37.81vw;
+    width: 40vw;
     height: 40vh;
-    border-radius: 12px;
-    gap: 24px;
+    border-radius: 0.8rem;
+    gap: 1.5rem;
 }
-.conteudo_central_login__text{
+
+.conteudo_central_login__text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    gap: 1rem;
 }
-.conteudo_central_login__text>h1{
-    color: white;
+
+.conteudo_central_login__text>h1 {
+    color: var(--branco);
     font-family: var(--fonte-principal);
     font-weight: var(--fonte-principal-bold);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
-.conteudo_login__input{
+
+.conteudo_cadastro__input {
     display: flex;
     flex-direction: column;
     gap: 22px;
@@ -62,28 +70,32 @@
     height: 18.05vh;
     color: white;
 }
-.conteudo_login__input__especificado{
+
+.conteudo_cadastro__input__especificado {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.conteudo_login__input__label{
+
+.conteudo_cadastro__input__label {
     font-family: var(--fonte-texto-regular);
     font-size: 1rem;
 }
 
-.conteudo_login__input__especificado>input{
+.conteudo_cadastro__input__especificado>input {
     border-radius: 8px;
     height: 3.54vh;
     padding-left: 8px;
 }
-.forgot_password{
+
+.forgot_password {
     text-decoration: none;
     color: white;
     font-family: var(--fonte-texto-regular);
     font-size: 0.75rem;
 }
-.conteudo_login__button{
+
+.conteudo_cadastro__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +108,8 @@
     height: 3.65vh;
     border-radius: 8px;
 }
-.rodape__disclaimer{
+
+.rodape__disclaimer2 {
     background-color: var(--cor_cinza-principal);
     height: 6.62vh;
     width: 100%;

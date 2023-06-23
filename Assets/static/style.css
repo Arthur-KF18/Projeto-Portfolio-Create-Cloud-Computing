@@ -3,6 +3,7 @@
 @import url('../static/servico.css');
 @import url('../static/logged_home.css');
 @import url('../static/minha_conta.css');
+@import url('../static/acessar_conta.css');
 
 html {
     scroll-behavior: smooth;
