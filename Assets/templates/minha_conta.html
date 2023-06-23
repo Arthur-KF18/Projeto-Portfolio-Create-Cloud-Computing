@@ -28,53 +28,68 @@
 			</ul>
 			<img src="../static/images/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg" alt="">
 		</div>
-	</section>     
+	</section>
 </header>
 
 <body>
-	<section>
-		<img src="../static/images/foto_de_perfil01.png" alt="Foto de Perfil">
-		<div>
-			<h2>Gerencie sua Conta</h2>
-		</div>
-	</section>
-	<section>
-		<div>
-			<img src="../static/images/usuario.svg" alt="Usuario">
-			<div>
-				<a href="#">
-					<h3>Alterar nome do perfil</h3>
-				</a>
-				<a href="#">
-					<p>Editar Biografia</p>
-				</a>
+	<section class="gerenciarConta">
+		<section class="perfil">
+			<img src="../static/images/usuário.svg" alt="Foto de Perfil" class="fotoPerfil">
+			<div class="perfil__titulo">
+				<h2>Gerencie sua Conta</h2>
 			</div>
-		</div>
-		<div>
-			<h2>Dados Pessoais</h2>
-			<h4>E-mail</h4>
-			<p> {{ user[0]}}</p>
-			<h4>Senha</h4>
-			<p> {{ user[1]}}</p>
-			<div>
-				<a href="">Alterar Senha</a>
-			</div>
-			<div>
-				<div>
-					<h2>Dados do Cartão</h2>
-					<h4>Dados do Cartão</h4>
-					<input type="text" placeholder="Nome no Cartão">
-					<h4>Validade do Cartão</h4>
-					<input type="date" placeholder="MM/AA">
-					<div>
-						<a href="">Editar Cartões</a>
+		</section>
+
+		<section class="gerenciamentoTotal">
+			<section class="gerenciamento">
+				<div class="gerenciamento__perfil">
+					<img src="../static/images/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg" alt="Usuario"
+						class="fotoPerfil">
+					<div class="gp--conteudo">
+						<a href="#">
+							<h3>Alterar nome do perfil</h3>
+						</a>
+						<a href="#">
+							<p>Editar Biografia</p>
+						</a>
 					</div>
-					<div>
+				</div>
+
+				<div class="dadosPessoais">
+					<div class="dadosPerfil">
+						<h2>Dados Pessoais</h2>
+						<section class="dp--dados">
+							<h4>E-mail</h4>
+							<p> {{ user[0]}}</p>
+							<h4>Senha</h4>
+							<p> {{ user[1]}}</p>
+						</section>
+						<div class="dp--botao"><a href="">Alterar Senha</a></div>
+					</div>
+
+					<div class="dadosPerfil">
+						<h2>Seu Cartão</h2>
+						<section class="dp--dados">
+							<h4>Dados do Cartão</h4>
+							<input type="text" placeholder="Nome no Cartão">
+							<h4>Validade do Cartão</h4>
+							<input type="date" placeholder="MM/AA">
+						</section>
+						<div class="dp--botao"><a href="">Editar Cartões</a></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="tier">
+				<h1>FREE</h1>
+				<h3>Válido por 1 ANO</h3>
+			</section>
+		</section>
+
+
+
 	</section>
-	<section>
-		<h1>FREE</h1>
-		<h3>Válido por 1 ANO</h3>
-	</section>
+
 </body>
 
 <footer>

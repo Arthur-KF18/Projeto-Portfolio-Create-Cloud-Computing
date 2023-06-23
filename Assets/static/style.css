@@ -2,6 +2,7 @@
 @import url('../static/sobre.css');
 @import url('../static/servico.css');
 @import url('../static/logged_home.css');
+@import url('../static/minha_conta.css');
 
 html {
     scroll-behavior: smooth;

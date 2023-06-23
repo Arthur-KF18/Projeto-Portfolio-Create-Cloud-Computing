@@ -1,0 +1,160 @@
+@import url("../static/style.css");
+
+.gerenciarConta {
+    background: var(--cinza-azulado-principal, #182531);
+    padding: 1.5rem 1rem 3rem 1rem;
+    margin: 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-texto-regular);
+    font-size: 1.3rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.perfil__titulo {
+    color: var(--branco);
+    font-size: 2rem;
+}
+
+.fotoPerfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.gerenciamentoTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.gerenciamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+}
+
+.gerenciamento__perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gp--conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.gp--conteudo>a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.gp--conteudo>a>h3 {
+    font-size: 1.5rem;
+}
+
+.gp--conteudo>a>p {
+    font-size: 1rem;
+}
+
+.dadosPessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dadosPerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.dadosPerfil>h2{
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 1.5rem;
+}
+
+.dp--botao{
+    background-color: var(--branco);
+    padding: 0.5rem 2rem;
+    border-radius: 12px;
+}
+
+.dp--botao>a{
+    text-decoration: none;
+    color: var(--cinza-azulado-principal);
+}
+
+.dp--dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.dp--dados>h4{
+    font-size: 1.1rem;
+    color: var(--branco);
+}
+
+.dp--dados>p{
+    border-radius: 1rem;
+    border: 1px solid var(--cinza-azulado-principal); 
+    background-color: var(--branco);
+    padding: 0.8rem 2rem;
+    width: 40vw;
+}
+
+.dp--dados>input{
+    border-radius: 1rem;
+    border: 1px solid var(--cinza-azulado-principal); 
+    background-color: var(--branco);
+    padding: 0.8rem 2rem;
+    width: 40vw;
+}
+
+.tier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.tier>h1{
+    font-family: var(--fonte-principal);
+    font-weight: var(--fonte-principal-bold);
+    font-size: 6rem;
+    color: var(--branco);
+}
+
+.tier>h3{
+    font-size: 1.5rem;
+    color: var(--branco);
+}
