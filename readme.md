@@ -8,9 +8,9 @@
 > 
 > [LinkedIn - Paulo](https://www.linkedin.com/in/paulo-gustavo-sousa-brito-039832226/).
 > 
-> [LinkedIn - João Otávio](https://www.linkedin.com/in/jo%C3%A3o-ot%C3%A1vio-souza-8634a3220/).
+> [LinkedIn - João Otávio](https://www.linkedin.com/in/joão-otávio-souza-8634a3220/).
 > 
-> [LinkedIn - João Vitor](https://www.linkedin.com/in/jo%C3%A3omarquesalmeida/).
+> [LinkedIn - João Vitor](https://www.linkedin.com/in/joãomarquesalmeida/).
 ---
 
 ### Figma do Projeto.
