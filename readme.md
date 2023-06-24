@@ -19,6 +19,7 @@
 
 ### Trello contendo o TDD do projeto:
 > [Projeto-A3:TDD] - https://trello.com/invite/b/Rfje39WZ/ATTI4230878295c1d0ded69294a45a5e10e5CD0AF1B3/projeto-a3-modelos-metodos-e-tecnicas-de-engenharia-de-software.
+---
 
 ## Apresentação e ideia do Projeto.
 - Desenvolvimento de um Website utilizando as principais linguagens de programação:
