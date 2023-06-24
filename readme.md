@@ -4,7 +4,7 @@
 ### Alunos presentes no desenvolvimento do Projeto:
 > [LinkedIn - Arthur](https://www.linkedin.com/).
 > 
-> [LinkedIn - Gustavo](https://www.linkedin.com/).
+> [LinkedIn - Gustavo](https://www.linkedin.com/in/gustavo-carreiro-103093204/).
 > 
 > [LinkedIn - Paulo](https://www.linkedin.com/).
 > 
